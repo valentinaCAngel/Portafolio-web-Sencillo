@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Titan+One&display=swap');
+
+body {
+    overflow-x: hidden; /* Oculta el scroll horizontal */
+    margin: 0;
+    padding: 0;
+   
+    
+}
+:root{
+    --principal-color: purple;
+    --secundario-color: purple;
+    --terciar-color:purple;
+    --titulos-size:purple;
+    --subtitulos: purple;
+    --parrafo-size:purple;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+/*CABECERA */
+ header{
+    width: 100%;
+      min-height: 100vh;
+      position: relative;
+      background: url(../img/fondo.jpg);
+      background-size: cover; /* Ensures the background image covers the entire container */
+      background-position: center; /
+ }
+
+.bg-portafolio{
+    background: #00000053;
+}
+
+.bg-portafolio .nav-link,
+.bg-portafolio .navbar-brand {
+    color:  #FFE8F8;
+    
+}
+.bg-portafolio .navbar-brand{
+    font-size: 30px;
+}
+
+/*
+header #hero{
+    text-align: center;
+    padding: 8% 0;
+} 
+
+#hero h2{
+
+}
+*/
+
+/*
+#hero .container h1{
+    margin-top: 185px;
+    margin-bottom:45px;
+    margin-left: -100px;
+}
+
+#hero .container img{
+    margin-top: 100px;
+}
+
+#hero .container p{
+    font-size: 25px;
+    margin-left: -100px;
+}
+*/
+#hero {
+  text-align: center;
+  padding: 50px 0;
+}
+#hero h1.titulo {
+    font-size: 50px;
+  }
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    #hero h1.titulo{
+    font-size: 50px; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+     width: 590px;
+    }
+
+  }
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    #hero p {
+    font-size: medium;
+    width: 700px;
+   
+
+    }
+  
+    
+
+  }
+#hero h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-top: 185px;
+  margin-bottom: 45px;
+  
+  background: #0000008a;
+
+ 
+ 
+}
+#hero h1 span.hello {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    
+ 
+}
+#hero h1 span.developer {
+    font-family: 'Agbalumo', cursive;
+    font-size: 50px;
+    color: #F2D5EF;
+ 
+}
+#hero h1 span.name {
+    font-family: 'Agbalumo', cursive;
+    font-size: 50px;
+     color: #F2D5EF;
+}
+#hero h1 span.curious {
+    font-family: 'Titan One', sans-serif;
+    font-size: 50px;
+    /*color: #bda0dd;*/
+    color: #ade7a8;
+}
+
+#hero p {
+    background: rgba(250, 228, 247, 0.612);
+    font-size: 25px;
+    padding: 15px 60px 40px 60px; 
+    text-align:initial;
+  
+}
+
+* h2{
+    font-family: 'Agbalumo', cursive;
+    font-size: 50px;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+  #hero {
+    padding: 30px 0;
+  }
+
+  #hero h1 {
+    font-size: 1.5em;
+    margin-top: 0; /* Resetting margin-top for smaller screens */
+    margin-bottom: 20px; /* Adjust margin-bottom if needed */
+    margin-left: 0; /* Resetting margin-left for smaller screens */
+  }
+
+  header {
+    background:url(../img/fondo2.jpg); /* Change the background image for smaller screens */
+
+  }
+}
+  
+#perfil{
+    background: #F2D5EF;
+    
+}
+#perfil h2{
+    font-size: 40px;
+    margin-top: 185px;
+    margin-left: -100px;
+}
+#perfil  img{
+    margin-left: 60px;
+    width: 80%;
+   height: 900px;
+   
+}
+#perfil p{
+    font-size: 25px;
+    margin-left: -100px;
+    margin-right: 80px;
+    margin-top: -20px;
+}
+
+#estudiosyhabilidades{
+
+    background: rgb(0, 0, 0);
+}
+
+#estudiosyhabilidades .container .card-estudios img {
+    height: 100%;
+    
+}
+
+#experiencia h2{
+    font-size: 40px;
+    margin-top: -85px;
+    margin-bottom: 85px;
+    margin-left: -100px;
+}
+
+#portafolio .container .card-body{
+    background: #E5BBE1;
+}
+#portafolio .container .btn{
+    background: #FFE8F8; 
+    color: black;
+    border-color: #F2D5EF;
+    margin-left: 85px;
+} 
+#portafolio .container h5 {
+    text-align: center;
+}
+
+
+#perfil {
+    padding: 30px;
+    margin: 20px 0;
+    border: 1px solid #E5BBE1;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(244, 146, 253);
+    background-color: #000000;
+    
+  }
+
+  #perfil h2 {
+    margin-bottom: 80px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.753);
+    margin-left: -200px;
+  }
+
+  #perfil p {
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.685);
+  }
+
+
+
